@@ -5,13 +5,15 @@
   "main": "index.js",
   "scripts": {
     "start": "babel-node src/index.js",
-    "dev" : "nodemon --exec npx babel-node src/index.js"
+    "dev": "nodemon --exec npx babel-node src/index.js"
   },
   "author": "Marcelo Frias",
   "license": "ISC",
   "dependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.7.0",
-    "express": "^4.17.2"
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "morgan": "^1.10.0"
   }
 }
