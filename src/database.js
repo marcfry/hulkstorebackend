@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 
-const url = 'mongodb://localhost:27017/backendhulk';
+const url = 'mongodb+srv://MarceloFrias:nightmare@hulkstore.mxyav.mongodb.net/test';
 
 mongoose.connect(url, {seNewUrlParser: true, useUnifiedTopology: true, useCreateIndex: true});
 
