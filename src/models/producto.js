@@ -6,18 +6,19 @@ const productoSchema = new Schema({
         required: true,
         maxlength: 200,
         unique: true
+        
     },
     descripcion:{
         type: String,
         required: true,
-        maxlength: 200,
-        unique: true
+        maxlength: 200
+        
     },
     imagen:{
         type: String,
         required: true,
-        maxlength: 200,
-        unique: true
+        maxlength: 200
+        
     },
     compania:{
         type: String,
